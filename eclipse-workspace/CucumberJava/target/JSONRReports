@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-24T03:41:05.662Z",
+        "line": 3,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "check-login-functionalty;check-login-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "loginpage.Firstdemo.user_enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "hit enter",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user able to navigate login page",
+            "match": {
+              "location": "loginpage.Firstdemo.user_able_to_navigate_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "check login functionalty",
+    "description": "",
+    "id": "check-login-functionalty",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Firstdemo.feature",
+    "tags": []
+  }
+]

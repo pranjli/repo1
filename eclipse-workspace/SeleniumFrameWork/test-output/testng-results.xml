@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="147" started-at="2020-10-28T08:31:35 IST" finished-at="2020-10-28T08:31:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="147" started-at="2020-10-28T08:31:35 IST" finished-at="2020-10-28T08:31:36 IST">
+      <class name="demo.TestNGMultiBrowserDemo">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:demo.TestNGMultiBrowserDemo@43738a82]" name="setup" is-config="true" duration-ms="-1603854095890" started-at="2020-10-28T08:31:35 IST" finished-at="1970-01-01T05:30:00 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\pranjlti\AppData\Local\Temp\testng-eclipse-1571220417\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\pranjlti\AppData\Local\Temp\testng-eclipse-1571220417\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="test()[pri:0, instance:demo.TestNGMultiBrowserDemo@43738a82]" name="test" duration-ms="0" started-at="2020-10-28T08:31:35 IST" finished-at="2020-10-28T08:31:35 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'BrowserName' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\pranjlti\AppData\Local\Temp\testng-eclipse-1571220417\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'BrowserName' is required by BeforeTest on method setup but has not been marked @Optional or defined
+in C:\Users\pranjlti\AppData\Local\Temp\testng-eclipse-1571220417\testng-customsuite.xml
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- demo.TestNGMultiBrowserDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
